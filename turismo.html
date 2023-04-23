@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Libertad/Turismo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- etiquetas link y Atributo href para los iconos del font awesome-->
+    <style>
+        body{background-image: url(https://c0.wallpaperflare.com/preview/189/381/77/trujillo-huanchaco-beach-peru.jpg); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-attachment: fixed; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            color: #fff;}
+        .fondo{position: relative; 
+            width: 80%; 
+            height: 100%;
+            box-shadow: 2px 2px 5px #303030; 
+            background-color: rgba(14, 13, 13, 0.5);
+            border: 1px solid #fff; 
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            margin: 0px; 
+            padding: 0px; 
+            box-sizing: border-box}
+            *{padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;}
+            .logo img{width: 45px;}
+            .logo{font-size: 35px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+            header{background-color: #222222; display: flex;justify-content: space-between; align-items: center; padding: .5rem 2rem;border-top-left-radius: 20px; border-top-right-radius: 20px; margin-bottom: 15px;}
+            .navegar a{color: #fff; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 17px;}
+            .navegar a:hover{color: violet;}
+            .navegar li:last-child{background-color:violet; border: 2px solid violet; padding: .25rem .75rem; border-radius: .4rem;}
+            .navegar li:last-child:hover{background: transparent; border: 2px solid violet;}
+            .menu ul{display: flex; align-items: center;}
+            .menu li{margin-right: 1.5rem;}
+            .pie{clear: both;}
+            .socialicons a{text-decoration: none;padding: 3px;
+        background-color: white; margin: 10px; border-radius: 50%;}
+            .socialicons a i{font-size: 2em; color: black; opacity: 0.9;}
+            .socialicons a:hover{background-color: #111; transition: 0.5s;}
+            .socialicons a:hover i{color: white; transition: 0.5s;}
+            .footernav{margin: 30px 0;}
+            .footernav ul{display: flex; justify-content: center; list-style-type: none;}
+            .footernav ul li a{color: white;margin: 20px;text-decoration: none;font-size: 1.3em; opacity: 0.7; transition: 0.5s;}
+            .footernav ul li a:hover{opacity: 1;}
+            .footerbottom{background-color: #000; padding: 1px; text-align: center;}
+            .footerbottom p{color: white;}
+            .diseñador{opacity: 0.7;text-transform: uppercase; letter-spacing: 1px; font-weight: 400;margin: 0px 5px;}
+            .news-cards{display: grid;grid-template-columns: repeat(4, 1fr);}
+            .news-cards img{width: 100%;height: 140px; gap: 15px;}
+            img{border-radius: 20px;}
+    </style><!--etiqueta style para poner atributos de css-->
+</head>
+<body>
+    <div class="fondo">
+        <header>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Escudo_de_La_Libertad_Peru.svg/595px-Escudo_de_La_Libertad_Peru.svg.png" alt="escudo"> La Libertad
+            </div>
+            <nav class="menu">
+                <ul class="navegar">
+                    <li class="navega"><a href="./index.html">Inicio</a></li>
+                    <li class="navega"><a href="./danzas.html">Danzas</a></li>
+                    <li class="navega"><a href="./turismo.html">Turismo</a></li>
+                    <li class="navega"><a href="https://informes.certus.edu.pe/carreras/conoce-certus/?utm_source=google&utm_medium=cpa&utm_campaign=CERTUS-PG-Conoce_Certus-Nacional-Paid-keywords-Performance_Max&utm_content=textad-&utm_term=7e72f8dd-6f41-ec11-a994-eb7722ed68e7&gad=1&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrZYzYmk5m5qdfpaAaPgLT5Q4qkstado0jRNy80AU_85NfOnzpFSFs8aAiR5EALw_wcB">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="turismo">
+<!--cartas de tusismo-->
+        <main style="width: 93%;background-color:rgba(95, 72, 91, 0.6);margin: 15px;padding: 20px;align-items: center;align-content: center; border-radius: 20px;border: 1px solid white;">
+            <div style="margin-bottom: 20px;gap: 15px;" class="news-cards">
+                <div>
+                    <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2018/01/16/000474303W.jpg" alt="trujillo" />
+                    <h3 style="color: yellow;">Trujillo.</h3>
+                    <p>Edificios coloniales, complejo Chan Chan</p>
+                    <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                </div>
+                <div>
+                    <img src="https://peru.info/archivos/publicacion/19-imagen-1324472912018.jpg" alt="chan chan" />
+                    <h3 style="color: yellow;">Chan Chan.</h3>
+                    <p>Yacimiento de adobe alzado en el año 850.</p>
+                    <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                </div>
+                <div>
+                    <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2020/02/17/000652742W.jpg" alt="huanchaco" />
+                    <h3 style="color: yellow;">Huanchaco.</h3>
+                    <p>Playa, surf, pesca, sitio arqueologico y deportes.</p>
+                    <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                </div>
+                <div>
+                    <img src="https://blog.redbus.pe/wp-content/uploads/2019/09/pacasmayo-1280x720.jpg" alt="pacasmayo" />
+                    <h3 style="color: yellow;">Pacasmayo.</h3>
+                    <p>Surf, playa, kitesurf, windsurf y deportes acuaticos.</p>
+                    <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+            <h1 style="text-align: center;">Mapa del Departamento</h1>
+            <center>
+            <img style="width: 500px;height: 300px;" src="https://i.pinimg.com/originals/9f/43/f1/9f43f149af029e4a383eef8b45332afb.jpg" alt="mapa">
+            </center>
+        </main>
+    </div>
+        <!--etiqueta footer o pie de pagina-->
+        <footer class="pie" style="width: 100%; margin: auto; background-color: #161616; border: 3px solid black; padding: 5px; box-sizing: border-box; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
+            <div class="footercontainer">
+                <div class="socialicons" style="display: flex; justify-content: center;">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="footernav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Our Team</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerbottom">
+                <p>Copyright ©2023; Designed by <span class="diseñador">Marco Mendez</span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
